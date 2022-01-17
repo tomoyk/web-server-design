@@ -17,10 +17,16 @@ git clone https://github.com/tomoyk/web-server-design.git
 cd web-server-design
 ```
 
+コンテナをビルドする．
+
+```
+docker build -t app .
+```
+
 コンテナを作成し，シェルに入る．
 
 ```
-docker run -it -v $PWD:/share bash
+docker run -it -v $PWD:/share app bash
 ```
 
 モデルを作成する．適宜モデルに置き換える．
