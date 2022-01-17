@@ -6,8 +6,6 @@
 - Rails 5.2.1
 - SQLite 3
 
-Ruby
-
 ## 使い方
 
 リポジトリをCloneして移動する．
