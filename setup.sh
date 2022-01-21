@@ -8,6 +8,9 @@ apt install -y vim
 gem install rails -v "5.2.1"
 rails new sample -d sqlite3 -G
 
+echo "gem 'rails-erd'" >> Gemfile
+bundle install
+
 # cd sample/
 # rails g scaffold Memo datetime:timestamp title:string content:text
 # rake db:migrate
