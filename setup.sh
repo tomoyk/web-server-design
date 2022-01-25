@@ -8,6 +8,7 @@ apt install -y vim
 gem install rails -v "5.2.1"
 rails new sample -d sqlite3 -G
 
+cd sample
 echo "gem 'rails-erd'" >> Gemfile
 bundle install
 
